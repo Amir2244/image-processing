@@ -6,7 +6,7 @@ import java.io.File;
 import java.io.IOException;
 
 public class Main {
-    public static final String SOURCE_FILE = "./resources/many-flowers.jpg";
+    public static final String SOURCE_FILE = "src/main/resources/many-flowers.jpg";
     public static final String DESTINATION_FILE = "./out/many-flowers.jpg";
 
     public static void main(String[] args) throws IOException, InterruptedException {
