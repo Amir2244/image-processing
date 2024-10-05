@@ -24,4 +24,4 @@ public class VerticalRecolorer implements RecolorStrategy {
         }
     }
 }
-}
+
