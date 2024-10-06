@@ -1,5 +1,4 @@
 
----
 
 # Multithreaded Image Recoloring
 
@@ -55,4 +54,3 @@ Apart from image processing, block division can be more efficient in other tasks
 
 In matrix multiplication, if we divide the work into smaller blocks, each thread can process a square block of the resulting matrix independently. This allows better handling of both row and column operations simultaneously, reducing the need for frequent thread synchronization and improving parallelization efficiency. This block approach enables threads to work on smaller sections of the matrix, reducing the complexity of managing shared data, and leading to better performance in distributed and parallel computing tasks.
 
----
